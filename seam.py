@@ -1,7 +1,7 @@
-# ToxicBomber
+# Sean Bomber
 # Tool : Unlimited SMS Bombing In Bangladeshi Numbers
-#Author : ToxicNoob
-# Coder : HunterSl4d3
+#Author : Seam
+# Coder : Seam Coder
 
 import time
 import requests
