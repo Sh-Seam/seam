@@ -24,10 +24,10 @@ def update():
     try:
         toolVersion = open("./more/.version", "r").read()
     except:
-        toolVersion = "ToxicNoob"
+        toolVersion = "Sh-Seam"
     
     try:
-        mainVersion = requests.get("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version").text
+        mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
     except:
         psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
         time.sleep(1)
@@ -42,7 +42,7 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Sh-Seam/seam > /dev/null 2>&1")
+    os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
@@ -55,15 +55,16 @@ def update():
 def logo():
     os.system("clear")
     print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
-    print("\033[94m│     \033[92m▀▛▘     ▗    ▛▀▖       ▌        \033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▌▞▀▖▚▗▘▄ ▞▀▖▙▄▘▞▀▖▛▚▀▖▛▀▖▞▀▖▙▀▖\033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▌▌ ▌▗▚ ▐ ▌ ▖▌ ▌▌ ▌▌▐ ▌▌ ▌▛▀ ▌  \033[94m   │".center(columns+15))
-    print("\033[94m│     \033[92m ▘▝▀ ▘ ▘▀▘▝▀ ▀▀ ▝▀ ▘▝ ▘▀▀ ▝▀▘▘  \033[94m   │".center(columns+15))
-    print("\033[94m│                              \033[94m          │".center(columns+9))
-    print("\033[94m│ \033[95mAuthor : ToxicNoob                     \033[94m│".center(columns+15))
+    print("\033[94m│     \033[92m  _________                       __________              ___.                  \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m /   _____/ ____ _____    _____   \______   \ ____   _____\_ |__   ___________  \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m \_____  \_/ __ \\__  \  /     \   |    |  _//  _ \ /     \| __ \_/ __ \_  __ \ \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m /        \  ___/ / __ \|  Y Y  \  |    |   (  <_> )  Y Y  \ \_\ \  ___/|  | \/ \033[94m   │".center(columns+15))
+    print("\033[94m│             /_______  /\___  >____  /__|_|  /  |______  /\____/|__|_|  /___  /\___  >__|    \033[94m   │".center(columns+9))
+    print("\033[94m│                     \/     \/     \/      \/          \/             \/    \/     \/        \033[94m   │".center(columns+9))
+    print("\033[94m│ \033[95mAuthor : Seam                     \033[94m│".center(columns+15))
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
-    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+9))
-    print("│ \033[95mCoder  : HunterSl4d3              \033[37mV3.0 \033[94m│".center(columns+15))
+    print("│ \033[95mGitHub : https://github.com/Sh-Seam/seam \033[94m│".center(columns+9))
+    print("│ \033[95mCoder  : Seam coder              \033[37mV3.0 \033[94m│".center(columns+15))
     print("\033[94m└────────────────────────────────────────┘".center(columns+5))
 
 
@@ -101,7 +102,7 @@ def check(sent):
         psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!")
         psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m" + str(amount))
         psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0" + main.number)
-        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mToxicBomber\n")
+        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mMD Seam\n")
         time.sleep(0.6)
         print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool \033[92m[\033[93m★\033[92m]".center(columns + 30))
         print("\033[37m")
