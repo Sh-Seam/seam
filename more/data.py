@@ -1,5 +1,5 @@
-# API Data For ToxicBomber
-# A Product Of ToxicNoob
+# API Data For SeamBomber
+# A Product Of Seam
 
 import requests
 from requests.structures import CaseInsensitiveDict
@@ -17,7 +17,7 @@ def check():
     if not ("Author : Sh-Seam" in file) or not ("GitHub : https://github.com/Sh-Seam" in file) or not ("SeamBomber" in file) or not ("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version" in file):
         print("\n\033[92m[\033[91m!\033[92m] You Have No Permission To Access This Tool!")
         print("\033[92m[\033[91m!\033[92m] Delete This Tool and git clone Again To Use It!")                       
-        print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/Sh-Seam\n")                                                                                                                                                           
+        print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/Sh-Seam/seam\n")                                                                                                                                                           
         sys.exit()
 
 #Check Permission
@@ -78,7 +78,7 @@ def api5(number):
 
 #6#
 def api6(number):
-    url = "http://lpin.dev.mpower-social.com:6001/usermodule/otp_mobile/?mobile_no=0" + number + "&email=toxicnoob%40gmail.com&verification_type=registration"
+    url = "http://lpin.dev.mpower-social.com:6001/usermodule/otp_mobile/?mobile_no=0" + number + "&email=Seam%40gmail.com&verification_type=registration"
     headers = {"content-type" : "application/x-www-form-urlencoded", "accept" : "application/json"}
     try:
         response = requests.get(url, headers=headers).status_code
