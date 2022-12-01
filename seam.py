@@ -1,4 +1,4 @@
-guyftyftyft# ToxicBomber
+# ToxicBomber
 # Tool : Unlimited SMS Bombing In Bangladeshi Numbers
 #Author : ToxicNoob
 # Coder : HunterSl4d3
@@ -42,13 +42,13 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Toxic-Noob/ToxicBomber > /dev/null 2>&1")
+    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Sh-Seam/seam > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
     time.sleep(0.8)
     
-    os.system("cd .. && cd ToxicBomber && python Tbomb.py")
+    os.system("cd .. && cd seam && python seam.py")
 
 
 #Logo
