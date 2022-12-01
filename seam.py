@@ -1,6 +1,6 @@
-# Sean Bomber
+# Seam Bomber
 # Tool : Unlimited SMS Bombing In Bangladeshi Numbers
-#Author : Seam
+#Author : Sh-Seam
 # Coder : Seam Coder
 
 import time
