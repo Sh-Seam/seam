@@ -1,4 +1,4 @@
-<img src="file/pic.png" alt="ToxicBomber">
+<img src="file/pic.png" alt="SeamBomber">
 Most Updated SMS Bomber For Bangladeshi Numbers
 
 # Note:
@@ -20,9 +20,15 @@ apt upgrade -y
 pkg install python -y
 pkg install git -y
 pip install requests
-git clone https://github.com/Toxic-Noob/ToxicBomber
+git clone https://github.com/Sh-Seam/seam
 cd ToxicBomber
 python Tbomb.py
+```
+
+### Installation Commands by 1 command:
+
+``` shell script
+apt update -y && apt upgrade -y && pkg install python -y && pkg install git -y && pip install requests && git clone https://github.com/Sh-Seam/seam && cd ToxicBomber && python Tbomb.py
 ```
 
 ## Note:
@@ -32,13 +38,16 @@ python Tbomb.py
 
 ## Contact :
 For Any Help or Suggestions, Contact With Us:
-<li> Via <a href="https://facebook.com/ToxicNoobOfficial">Facebook Page</a>
-<li> Via <a href="mailto: ContactWithToxicNoob@gmail.com">Email</a>
+<li> Via <a href="https://wwww.facebook.com/sh.seam.0">Facebook</a>
+<li> Via <a href="https://chat.whatsapp.com/G27GqrQZiBbGrfj6BHDsBi">WhatsApp</a>
+<li> Via <a href="https://m.me/sh.seam.0">Messenger</a>
+<li> Via <a href="mailto: shseam01@gmail.com">Email</a>
+<li> Via <a href="https://sh-seam.github.io/Twist-X/Bar.html">Website</a>
 
 
 # Screenshot:
-<img src="https://c.top4top.io/p_23185bxls0.jpg" alt="ToxicBomber">
+<img src="file/ss.png" alt="SeamBomber">
 
-### Visitors :
 
-![Visitor Count](https://profile-counter.glitch.me/Toxic-Noob/count.svg)
+
+
