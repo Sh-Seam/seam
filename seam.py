@@ -54,10 +54,10 @@ def update():
 def logo():
     os.system("clear")
     print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
-    print("\033[94m│    \033[92m  _________                     \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m  _________                     \033[94m   │".center(columns+15))
     print("\033[94m│    \033[92m  /   _____/ ____ _____    _____ \033[94m   │".center(columns+15))
     print("\033[94m│    \033[92m  \_____  \_/ __ \\__  \  /     \ \033[94m   │".center(columns+15))
-    print("\033[94m│    \033[92m  /        \  ___/ / __ \|  Y Y  \ \033[94m  │".center(columns+15))
+    print("\033[94m│    \033[92m  /        \  ___/ / __ \|  Y Y  \ \033[94m │".center(columns+15))
     print("\033[94m│              /_______  /\___  >____  /__|_|  / \033[94m   │".center(columns+9))
     print("\033[94m│                      \/     \/     \/      \/   \033[94m   │".center(columns+9))
     print("\033[94m│ \033[95mAuthor : Seam                     \033[94m│".center(columns+15))
