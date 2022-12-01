@@ -53,7 +53,7 @@ def update():
 #Logo
 def logo():
     os.system("clear")
-    print("\033[94m┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐".center(columns+5))
+    print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
     print("\033[94m│     \033[92m  _________                       __________              ___.                  \033[94m   │".center(columns+15))
     print("\033[94m│     \033[92m /   _____/ ____ _____    _____   \______   \ ____   _____\_ |__   ___________  \033[94m   │".center(columns+15))
     print("\033[94m│     \033[92m \_____  \_/ __ \\__  \  /     \   |    |  _//  _ \ /     \| __ \_/ __ \_  __ \ \033[94m   │".center(columns+15))
@@ -64,7 +64,7 @@ def logo():
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
     print("│ \033[95mGitHub : https://github.com/Sh-Seam/seam \033[94m│".center(columns+9))
     print("│ \033[95mCoder  : Seam coder              \033[37mV3.0 \033[94m│".center(columns+15))
-    print("\033[94m└────────────────────────────────────────────────────────────────────────────────────────────────────────┘".center(columns+5))
+    print("\033[94m└────────────────────────────────────────┘".center(columns+5))
 
 
 #Options Banner
