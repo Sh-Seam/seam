@@ -1,4 +1,4 @@
-<img src="file/pi.png" alt="ToxicBomber">
+<img src="file/pic.png" alt="ToxicBomber">
 Most Updated SMS Bomber For Bangladeshi Numbers
 
 # Note:
