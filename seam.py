@@ -1,7 +1,7 @@
-# Seam Bomber
+# SeamBomber
 # Tool : Unlimited SMS Bombing In Bangladeshi Numbers
 #Author : Sh-Seam
-# Coder : Seam Coder
+# Coder : SeamCoder
 
 import time
 import requests
@@ -24,7 +24,7 @@ def update():
     try:
         toolVersion = open("./more/.version", "r").read()
     except:
-        toolVersion = "Sh-Seam"
+        toolVersion = "Seam"
     
     try:
         mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
@@ -42,8 +42,7 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam > /dev/null 2>&1")
-    
+    os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam")
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
     time.sleep(0.8)
@@ -54,7 +53,7 @@ def update():
 #Logo
 def logo():
     os.system("clear")
-    print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
+    print("\033[94m┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐".center(columns+5))
     print("\033[94m│     \033[92m  _________                       __________              ___.                  \033[94m   │".center(columns+15))
     print("\033[94m│     \033[92m /   _____/ ____ _____    _____   \______   \ ____   _____\_ |__   ___________  \033[94m   │".center(columns+15))
     print("\033[94m│     \033[92m \_____  \_/ __ \\__  \  /     \   |    |  _//  _ \ /     \| __ \_/ __ \_  __ \ \033[94m   │".center(columns+15))
@@ -65,7 +64,7 @@ def logo():
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
     print("│ \033[95mGitHub : https://github.com/Sh-Seam/seam \033[94m│".center(columns+9))
     print("│ \033[95mCoder  : Seam coder              \033[37mV3.0 \033[94m│".center(columns+15))
-    print("\033[94m└────────────────────────────────────────┘".center(columns+5))
+    print("\033[94m└────────────────────────────────────────────────────────────────────────────────────────────────────────┘".center(columns+5))
 
 
 #Options Banner
@@ -102,7 +101,7 @@ def check(sent):
         psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!")
         psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m" + str(amount))
         psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0" + main.number)
-        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mMD Seam\n")
+        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mSeamBomber\n")
         time.sleep(0.6)
         print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool \033[92m[\033[93m★\033[92m]".center(columns + 30))
         print("\033[37m")
