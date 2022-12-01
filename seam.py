@@ -60,7 +60,7 @@ def logo():
     print("\033[94m│    \033[92m  /        \  ___/ / __ \|  Y Y  \ \033[94m │".center(columns+15))
     print("\033[94m│     /_______  /\___  >____  /__|_|  /  \033[94m│".center(columns+9))
     print("\033[94m│             \/     \/     \/      \/   \033[94m│".center(columns+9))
-    print("\033[94m│    \033[95mAuthor : Seam                     \033[94m│".center(columns+15))
+    print("\033[94m│    \033[95mAuthor : Seam                      \033[94m│".center(columns+15))
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
     print("│\033[95mGitHub : https://github.com/Sh-Seam/seam\033[94m│".center(columns+9))
     print("│  \033[95mCoder  : Seam coder              \033[37mV3.0 \033[94m│".center(columns+15))
