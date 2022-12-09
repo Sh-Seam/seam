@@ -101,9 +101,9 @@ def check(sent):
     
     if (sent == amount):
         psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!\u001b[34;1m")
-        psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m\u001b[34;1m" + str(amount))
-        psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0\u001b[34;1m" + main.number)
-        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mSeamBomber\n\u001b[34;1m")
+        psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m\u001b[31;1m" + str(amount))
+        psb("\033[92m    [\033[37m*\033[92m] Target : \u001b[31;1m0\u001b[31;1m" + main.number)
+        psb("\033[92m    [\033[37m*\033[92m] From   : \033[93mSeamBomber\n\u001b[34;1m")
         time.sleep(0.6)
         print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool \033[92m[\033[93m★\033[92m]\u001b[34;1m".center(columns + 30))
         print("\u001b[34;1m")
