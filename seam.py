@@ -29,22 +29,22 @@ def update():
     try:
         mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
     except:
-        psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
+        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Connect To The Internet! \u001b[34;1m")
         time.sleep(1)
-        l = input("\033[92m    [\033[37m*\033[92m] Press Enter To Continue...")
+        l = input("\u001b[31;1m    [*]\u001b[32;1m Press Enter To Continue...\u001b[34;1m")
         update()
     
     #If Tool Version Is Same, Then Return/Close Function
     if (toolVersion == mainVersion):
         return
     
-    psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!")
+    psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!\u001b[34;1m")
     time.sleep(0.5)
-    psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
+    psb("\033[92m    [\033[37m!\033[92m] Updating Tool...\u001b[34;1m")
     
     os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam")
-    psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
-    psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
+    psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!\u001b[34;1m")
+    psb("\033[92m    [\033[37m*\033[92m] Starting Tool...\u001b[34;1m")
     time.sleep(0.8)
     
     os.system("cd .. && cd seam && python seam.py")
@@ -52,19 +52,20 @@ def update():
 
 #Logo
 def logo():
-    os.system("clear")
-    print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
-    print("\033[94m│     \033[92m  _________                     \033[94m   │".center(columns+15))
-    print("\033[94m│    \033[92m  /   _____/ ____ _____    _____ \033[94m   │".center(columns+15))
-    print("\033[94m│    \033[92m  \_____  \_/ __ \\__  \  /     \ \033[94m   │".center(columns+15))
-    print("\033[94m│    \033[92m  /        \  ___/ / __ \|  Y Y  \ \033[94m │".center(columns+15))
-    print("\033[94m│     /_______  /\___  >____  /__|_|  /  \033[94m│".center(columns+9))
-    print("\033[94m│             \/     \/     \/      \/   \033[94m│".center(columns+9))
-    print("\033[94m│    \033[95m Author : Seam                      \033[94m│".center(columns+15))
-    print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
-    print("│\033[95mGitHub : https://github.com/Sh-Seam/seam\033[94m│".center(columns+9))
-    print("│  \033[95mCoder  : Seam coder              \033[37mV3.0 \033[94m│".center(columns+15))
-    print("\033[94m└────────────────────────────────────────┘".center(columns+5))
+    print("\u001b[32;1m-- ╔════════════════════════════════════════════════════════╗")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ░██████╗███████╗░█████╗░███╗░░░███╗\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ██╔════╝██╔════╝██╔══██╗████╗░████║\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ╚█████╗░█████╗░░███████║██╔████╔██║\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ░╚═══██╗██╔══╝░░██╔══██║██║╚██╔╝██║\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ██████╔╝███████╗██║░░██║██║░╚═╝░██║\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ║         \u001b[31;1m ╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝\u001b[32;1m           ║")
+    print("\u001b[32;1m-- ╠════════════════════════════════════════════════════════╣")
+    print("\u001b[32;1m-- ║ Author  : Seam                                         ║")
+    print("\u001b[32;1m-- ║ Tool    : Unlimited SMS Bomber                         ║")
+    print("\u001b[32;1m-- ║ GitHub  : https://github.com/Sh-Seam/seam              ║")
+    print("\u001b[32;1m-- ║ Website : https://sh-seam.github.io/Twist-X/Bar.html   ║")
+    print("\u001b[32;1m-- ║ Coder   : Seam coder                                   ║")
+    print("\u001b[32;1m-- ╚════════════════════════════════════════════════════════╝ \u001b[34;1m")
 
 
 #Options Banner
@@ -87,7 +88,7 @@ def banner():
     print("\033[92mNote    : \033[37mPress ctrl + z To Stop".center(columns + 10))
     #print(" ", end="")
     print("\033[95m-" * (columns), end = "")
-    print("\n")
+    print("\n\u001b[34;1m")
 
 
 #Check SMS Sent and Process
@@ -95,16 +96,16 @@ def check(sent):
     amount = main.amount
     delay = main.delay
     
-    print("\r\033[92m    [\033[94m#\033[92m] Massage Sent : \033[94m[\033[37m" + str(sent) + "\033[94m]\033[37m", end="")
+    print("\r\033[92m    [\033[94m#\033[92m] Massage Sent : \033[94m[\033[37m" + str(sent) + "\033[94m]\033[37m", end="\u001b[34;1m")
     
     if (sent == amount):
-        psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!")
-        psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m" + str(amount))
-        psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0" + main.number)
-        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mSeamBomber\n")
+        psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!\u001b[34;1m")
+        psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m\u001b[34;1m" + str(amount))
+        psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0\u001b[34;1m" + main.number)
+        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mSeamBomber\n\u001b[34;1m")
         time.sleep(0.6)
-        print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool \033[92m[\033[93m★\033[92m]".center(columns + 30))
-        print("\033[37m")
+        print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool \033[92m[\033[93m★\033[92m]\u001b[34;1m".center(columns + 30))
+        print("\u001b[34;1m")
         
         return True
     else:
@@ -114,14 +115,14 @@ def check(sent):
 
 #Get Target Number
 def getNumber():
-    number = input("\n    \033[92m[\033[37m*\033[92m] Enter Target Number:> \033[37m")
+    number = input("\n    \u001b[32;1m[*] \u001b[34;1mEnter Target Number:> \u001b[34;1m")
     try:
         int(number)
     except:
-        psb("\n\033[92m    [\033[91m!\033[92m] Please Enter a Correct Number!")
+        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Enter a Correct Number!\u001b[34;1m")
         number = getNumber()
     if not (len(number) == 11):
-        psb("\n\033[92m    [\033[91m!\033[92m] Please Enter 11 Digit Number!")
+        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Enter 11 Digit Number!\u001b[34;1m")
         number = getNumber()
     
     return number
@@ -133,7 +134,7 @@ def main():
     number = number[-10:]
     main.number = number
     
-    amount = input("    \033[92m[\033[37m*\033[92m] Enter Amount (\033[37mDefault: 10\033[92m):> \033[37m")
+    amount = input("    \033[92m[\033[37m*\033[92m] Enter Amount (\033[37mDefault: 10\033[92m):> \u001b[34;1m")
     try:
         amount = int(amount)
     except:
@@ -141,7 +142,7 @@ def main():
     
     main.amount = amount
     
-    delay = input("    \033[92m[\033[37m*\033[92m] Enter Time(\033[37mSec\033[92m) Delay (\033[37mDefault: 2s\033[92m):> \033[37m")
+    delay = input("    \033[92m[\033[37m*\033[92m] Enter Time(\033[37mSec\033[92m) Delay (\033[37mDefault: 2s\033[92m):> \u001b[34;1m")
     try:
         int(delay)
     except:
@@ -214,56 +215,6 @@ def main():
             if(check(sent)):
                 break
         
-        code = api11(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api12(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api13(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api14(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api15(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api16(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api17(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-        
-        code = api18(number)
-        if (code == 200):
-            sent += 1
-            if(check(sent)):
-                break
-
-
-
 if __name__ == "__main__":
     logo()
     update()
