@@ -2,9 +2,10 @@
 Most Updated SMS Bomber For Bangladeshi Numbers
 
 # Note:
-This tool is not Updated. For Python Updates, there was being some version error. Just solved that version error.
 
-So, don't be excited about the Update😅. This is the same old ToxicBomber.
+This a new Version of Seam Bomber . Now this Tool is more Powerfull than privious version.👍👍👍👍👍👍👍
+This version is updated in 9 Dec. 2022 .✅✅✅✅
+Next update will come soon.🥳🥳🥳🥳
 
 ### Version 3.0 Updates:
 <li>New Interface</li>
@@ -33,7 +34,7 @@ apt update -y && apt upgrade -y && pkg install python -y && pkg install git -y &
 
 ## Note:
 <li>This Tool Is Only For Educational Purpose</li>
-<li>ToxicNoob Will Never Be Responsible For Any Misuse</li>
+<li>SeamBomber & The owner Will Never Be Responsible For Any Misuse</li>
 <li>Use It At Your Own Risk</li>
 
 ## Contact :
