@@ -63,7 +63,7 @@ def logo():
     print("\u001b[32;1m-- ╠════════════════════════════════════════════════════════╣")
     print("\u001b[32;1m-- ║ Author  : Seam                                         ║")
     print("\u001b[32;1m-- ║ Tool    : Unlimited SMS Bomber                         ║")
-    print("\u001b[32;1m-- ║ GitHub : https://github.com/Sh-Seam/seam               ║")
+    print("\u001b[32;1m-- ║ GitHub  : https://github.com/Sh-Seam/seam              ║")
     print("\u001b[32;1m-- ║ Website : https://sh-seam.github.io/Twist-X/Bar.html   ║")
     print("\u001b[32;1m-- ║ Coder   : Seam coder                                   ║")
     print("\u001b[32;1m-- ╚════════════════════════════════════════════════════════╝ \u001b[34;1m")
