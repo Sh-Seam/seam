@@ -1,4 +1,4 @@
-<img src="file/men.png" alt="SeamBomber">
+<img src="file/pic.png" alt="SeamBomber">
 
 Most Updated SMS Bomber For Bangladeshi Numbers
 
