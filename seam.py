@@ -24,6 +24,23 @@ def psb(z):
         
 
 def update():
+    
+    try:
+         toolVersion = open("./more/.version", "r").read()
+    except:
+        toolVersion = "Seam"
+    
+    try:
+        mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
+    except:
+        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Connect To The Internet! \u001b[34;1m")
+        time.sleep(1)
+        l = input("\u001b[31;1m    [*]\u001b[32;1m Press Enter To Continue...\u001b[34;1m")
+        update()
+    
+#If Tool Version Is Same, Then Return/Close Function
+    if (toolVersion == mainVersion):
+        return
     print("""
     \u001b[32;1m
     ----╔════════════════════════════════════════════════════╗
@@ -41,23 +58,6 @@ def update():
     ----║ \u001b[31;1m    ██║░░░░░╚█████╔╝╚██████╔╝██║░╚███║██████╔╝     \u001b[32;1m║
     ----║ \u001b[31;1m    ╚═╝░░░░░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░    \u001b[32;1m ║
     ----╚════════════════════════════════════════════════════╝""")
-    try:
-         toolVersion = open("./more/.version", "r").read()
-    except:
-        toolVersion = "Seam"
-    
-    try:
-        mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
-    except:
-        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Connect To The Internet! \u001b[34;1m")
-        time.sleep(1)
-        l = input("\u001b[31;1m    [*]\u001b[32;1m Press Enter To Continue...\u001b[34;1m")
-        update()
-    
-#If Tool Version Is Same, Then Return/Close Function
-    if (toolVersion == mainVersion):
-        return
-    
     psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!\u001b[34;1m")
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...\u001b[34;1m")
