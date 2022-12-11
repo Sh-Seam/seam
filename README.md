@@ -1,4 +1,5 @@
-<img src="file/pic.png" alt="SeamBomber">
+<img src="file/men.png" alt="SeamBomber">
+
 Most Updated SMS Bomber For Bangladeshi Numbers
 
 # Note:
@@ -47,7 +48,10 @@ For Any Help or Suggestions, Contact With Us:
 
 
 # Screenshot:
-<img src="file/ss.png" alt="SeamBomber">
+<img src="file/men.jpg" alt="SeamBomber-Menu">
+<img src="file/bomb.jpg" alt="SeamBomber-Bomb">
+<img src="file/his.jpg" alt="SeamBomber-history">
+<img src="file/ip.jpg" alt="SeamBomber-IP">
 
 
 
