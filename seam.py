@@ -41,7 +41,7 @@ def update():
 #If Tool Version Is Same, Then Return/Close Function
     if (toolVersion == mainVersion):
         return
-    print("""
+    psd("""
     \u001b[32;1m
     ----╔════════════════════════════════════════════════════╗
     ----║\u001b[31;1m ██╗░░░██╗██████╗░██████╗░░█████╗░████████╗███████╗ \u001b[32;1m║
