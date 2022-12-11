@@ -13,6 +13,46 @@ import json
 from urllib.request import urlopen
 from more.data import *
 
+
+
+def psb(z):
+            for e in z + '\n':
+                sys.stdout.write(e)
+                sys.stdout.flush()
+                time.sleep(0.01)
+#Check Update
+        
+
+def update():
+    try:
+         toolVersion = open("./more/.version", "r").read()
+    except:
+        toolVersion = "Seam"
+    
+    try:
+        mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
+    except:
+        psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Connect To The Internet! \u001b[34;1m")
+        time.sleep(1)
+        l = input("\u001b[31;1m    [*]\u001b[32;1m Press Enter To Continue...\u001b[34;1m")
+        update()
+    
+#If Tool Version Is Same, Then Return/Close Function
+    if (toolVersion == mainVersion):
+        return
+    
+    psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!\u001b[34;1m")
+    time.sleep(0.5)
+    psb("\033[92m    [\033[37m!\033[92m] Updating Tool...\u001b[34;1m")
+    
+    os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam")
+    psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!\u001b[34;1m")
+    psb("\033[92m    [\033[37m*\033[92m] Starting Tool...\u001b[34;1m")
+    time.sleep(0.8)
+       
+    os.system("cd .. && cd seam && python seam.py")
+
+
 def intpu():
     os.system("clear")
     
@@ -36,36 +76,6 @@ def intpu():
                 sys.stdout.write(e)
                 sys.stdout.flush()
                 time.sleep(0.01)
-
-        #Check Update
-        def update():
-            try:
-                toolVersion = open("./more/.version", "r").read()
-            except:
-                toolVersion = "Seam"
-    
-            try:
-                mainVersion = requests.get("https://raw.githubusercontent.com/Sh-Seam/seam/main/more/.version").text
-            except:
-                psb("\n\u001b[31;1m    [!]\u001b[32;1m Please Connect To The Internet! \u001b[34;1m")
-                time.sleep(1)
-                l = input("\u001b[31;1m    [*]\u001b[32;1m Press Enter To Continue...\u001b[34;1m")
-                update()
-    
-            #If Tool Version Is Same, Then Return/Close Function
-            if (toolVersion == mainVersion):
-                return
-    
-            psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!\u001b[34;1m")
-            time.sleep(0.5)
-            psb("\033[92m    [\033[37m!\033[92m] Updating Tool...\u001b[34;1m")
-    
-            os.system("cd .. && rm -rf seam && git clone https://github.com/Sh-Seam/seam")
-            psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!\u001b[34;1m")
-            psb("\033[92m    [\033[37m*\033[92m] Starting Tool...\u001b[34;1m")
-            time.sleep(0.8)
-       
-            os.system("cd .. && cd seam && python seam.py")
 
 
         #Logo
@@ -314,4 +324,5 @@ def intpu():
 
 
 if __name__ == "__main__":
+    update()
     intpu()
