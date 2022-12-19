@@ -11,7 +11,7 @@ import shutil
 import datetime
 import json
 import platform
-import psutil
+import cpuinfo
 from urllib.request import urlopen
 from more.data import *
 
@@ -263,7 +263,7 @@ def intpu():
                     if(check(sent)):
                         break
         def hist():
-            hard=str(f" Arc: {platform.architecture()}"+" -- "+f"Pla: {platform.platform()}"+" -- "+f"Pro: {platform.processor()}"+" -- "+f"CPU: {psutil.cpu_count()}"+f"{round(psutil.virtual_memory().total/1000000000, 2)}"+" \ "+f"{round(psutil.virtual_memory().available/1000000000, 2)}"+" \ "+ f"Used RAM: {round(psutil.virtual_memory().used/1000000000, 2)}")
+            hard=str(f" Arc: {platform.architecture()}"+" -- "+f"Pla: {platform.platform()}"+" -- "+f"Pro: {platform.processor()}"+" -- "+"CPU: "+pp["brand_raw"])
             now = datetime.datetime.now()
             year = now.strftime("%Y")
             month = now.strftime('%B')
