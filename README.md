@@ -8,7 +8,7 @@ This a new Version of Seam Bomber . Now this Tool is more Powerfull than priviou
 This version is updated in 9 Dec. 2022 .✅✅✅✅
 Next update will come soon.🥳🥳🥳🥳
 
-### Version 3.0 Updates:
+### Version 4.7 Updates:
 <li>New Interface</li>
 <li>Removed Dead APIs</li>
 <li>Added New API</li>
