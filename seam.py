@@ -111,7 +111,7 @@ def intpu():
             print("\u001b[32;1m-- ║ Tool    : Unlimited SMS Bomber                         ║")
             print("\u001b[32;1m-- ║ GitHub  : https://github.com/Sh-Seam/seam              ║")
             print("\u001b[32;1m-- ║ Website : https://sh-seam.github.io/Twist-X/Bar.html   ║")
-            print("\u001b[32;1m-- ║ Coder   : Seam coder                                   ║")
+            print("\u001b[32;1m-- ║ Coder   : Seam coder                             v 4.7 ║")
             print("\u001b[32;1m-- ╚════════════════════════════════════════════════════════╝ \u001b[34;1m")
     
 
@@ -162,7 +162,7 @@ def intpu():
 
           #Get Target Number
         def getNumber():
-            number = input("\n    \u001b[32;1m[*] \u001b[34;1mEnter Target Number:> \u001b[34;1m")
+            number = input("\n    \033[92m[\033[37m*\033[92m]Enter Target Number:> \033[37m")
             try:
                 int(number)
             except:
@@ -181,7 +181,7 @@ def intpu():
             number = number[-10:]
             main.number = number
     
-            amount = input("    \033[92m[\033[37m*\033[92m] Enter Amount (\033[37mDefault: 10\033[92m):> \u001b[34;1m")
+            amount = input("    \033[92m[\033[37m*\033[92m] Enter Amount (\033[37mDefault: 10\033[92m):> \033[37m")
             try:
                 amount = int(amount)
             except:
@@ -189,7 +189,7 @@ def intpu():
     
             main.amount = amount
     
-            delay = input("    \033[92m[\033[37m*\033[92m] Enter Time(\033[37mSec\033[92m) Delay (\033[37mDefault: 2s\033[92m):> \u001b[34;1m")
+            delay = input("    \033[92m[\033[37m*\033[92m] Enter Time(\033[37mSec\033[92m) Delay (\033[37mDefault: 2s\033[92m):> \033[37m")
             try:
                 int(delay)
             except:
