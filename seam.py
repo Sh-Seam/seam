@@ -11,7 +11,6 @@ import shutil
 import datetime
 import json
 import platform
-import cpuinfo
 from urllib.request import urlopen
 from more.data import *
 
@@ -263,7 +262,7 @@ def intpu():
                     if(check(sent)):
                         break
         def hist():
-            hard=str(f" Arc: {platform.architecture()}"+" -- "+f"Pla: {platform.platform()}"+" -- "+f"Pro: {platform.processor()}"+" -- "+"CPU: "+pp["brand_raw"])
+            hard=str(f" Arc: {platform.architecture()}"+" -- "+f"Pla: {platform.platform()}"+" -- "+f"Pro: {platform.processor()}")
             now = datetime.datetime.now()
             year = now.strftime("%Y")
             month = now.strftime('%B')
