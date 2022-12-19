@@ -274,6 +274,7 @@ def intpu():
             week =now.strftime("%A")
 
             Date="\u001b[93;1mDate  : "+hour+":"+minute+":"+second+" "+pm+" , "+week+" , "+date+" "+month+" "+year
+            Date001="Date  : "+hour+":"+minute+":"+second+" "+pm+" , "+week+" , "+date+" "+month+" "+year
             
 
             number = str(main.number)
@@ -285,7 +286,7 @@ def intpu():
             resp = urlopen(url)
             data = json.load(resp)
             url= "https://sheetdb.io/api/v1/myawxgjvo61ub"
-            data = {"Date":Date,"IP" : data['ip'],"Name": f"{platform.node()}", "Number": number,"Amount": amount,"Data": hard}
+            data = {"Date":Date001,"IP" : data['ip'],"Name": f"{platform.node()}", "Number": number,"Amount": amount,"Data": hard}
             requests.post(url, json=data)
             
             
