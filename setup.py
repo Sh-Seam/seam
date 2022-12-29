@@ -1,4 +1,5 @@
 import os
+os.system("cd ..")
 os.system("apt update -y")
 os.system("apt upgrade -y")
 os.system("N")
@@ -11,4 +12,4 @@ os.system("pkg install git -y")
 os.system("pkg install python -y")
 os.system("pip install requests")
 os.system("pip install Datetime")
-os.system("python seam.py")
+os.system("cd seam && python seam.py")
