@@ -12,6 +12,7 @@ Next update will come soon.🥳🥳🥳🥳
 
 ``` shell script
 pkg install git -y
+pkg install python -y
 git clone https://github.com/Sh-Seam/seam
 cd seam
 python setup.py
