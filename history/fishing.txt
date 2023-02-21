@@ -1,0 +1,120 @@
+fishing
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:29:23 PM , Sunday , 19 February 2023
+       [32;1mSite : [31;1m0Facebook
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1mrrrrrrrrrrrr[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:31:27 PM , Sunday , 19 February 2023
+       [32;1mSite : [31;1m0Facebook
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1mrrrrrrrrrrrr[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:34:04 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1m0Facebook
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1mrrrrrrrrrrrr[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:42:11 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1m0Facebook
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1mrrrrrrrrrrrr[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:45:29 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1m0Instagram
+       [32;1mUser     : [31;1mndfghrtytrh
+       [32;1mPassword : [31;1m55555555555555555555[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:46:04 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1m0Instagram
+       [32;1mUser     : [31;1mndfghrtytrh
+       [32;1mPassword : [31;1m55555555555555555555[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:50:08 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1mYahoo
+       [32;1mUser     : [31;1m8888
+       [32;1mPassword : [31;1m9999999999999999[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:50:29 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1mYahoo
+       [32;1mUser     : [31;1m8888
+       [32;1mPassword : [31;1m9999999999999999[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:53:11 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1mVk
+       [32;1mUser     : [31;1mNone
+       [32;1mPassword : [31;1m5555555555555[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:53:19 PM , Sunday , 19 February 2023
+       [32;1mSite     : [31;1mVk
+       [32;1mUser     : [31;1mNone
+       [32;1mPassword : [31;1m5555555555555[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:51:18 PM , Monday , 20 February 2023
+       [32;1mSite     : [31;1mOrigin
+       [32;1mUser     : [31;1mwerwertretrter@dfgg.dfg
+       [32;1mPassword : [31;1mgdgdfgdfgdfgdfgfdert53[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 09:52:13 PM , Monday , 20 February 2023
+       [32;1mSite     : [31;1mOrigin
+       [32;1mUser     : [31;1mwerwertretrter@dfgg.dfg
+       [32;1mPassword : [31;1mgdgdfgdfgdfgdfgfdert53[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:23:37 PM , Monday , 20 February 2023
+       [32;1mSite     : [31;1mGmail
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1m2222222222222222222222[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 10:28:04 PM , Monday , 20 February 2023
+       [32;1mSite     : [31;1mGmail
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1mfrtgerereyyyyyy[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 04:09:19 PM , Tuesday , 21 February 2023
+       [32;1mSite     : [31;1mFacebook
+       [32;1mUser     : [31;1mseam@gmail.com
+       [32;1mPassword : [31;1m444444444444444444[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 04:42:42 PM , Tuesday , 21 February 2023
+       [32;1mSite     : [31;1mProtomail
+       [32;1mUser     : [31;1mndfghrtytrh
+       [32;1mPassword : [31;1m6666666666666666666[0m
+
+[34;1m       ----------------------------------------------------
+
+       [93;1mDate     : 04:43:10 PM , Tuesday , 21 February 2023
+       [32;1mSite     : [31;1mDiscode
+       [32;1mUser     : [31;1m555555555555555555555
+       [32;1mPassword : [31;1mhtrytryyyyyyyyyyyyyyyy[0m

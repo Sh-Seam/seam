@@ -1,0 +1,26 @@
+[Tue Feb 21 16:42:57 2023] PHP 8.2.0 Development Server (http://127.0.0.1:8080) started
+[Tue Feb 21 16:43:00 2023] 127.0.0.1:53757 Accepted
+[Tue Feb 21 16:43:00 2023] 127.0.0.1:53757 [200]: GET /login.html
+[Tue Feb 21 16:43:00 2023] 127.0.0.1:53757 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53758 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53759 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53758 [200]: GET /login.html
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53758 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53760 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53759 [200]: GET /qr.png
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53760 [200]: GET /style.css
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53759 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53760 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53761 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53761 [200]: GET /script.js
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53761 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53762 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53762 [200]: GET /e8acd7d9bf6207f99350ca9f9e23b168.woff
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53762 Closing
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53763 Accepted
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53763 [200]: GET /fav.ico
+[Tue Feb 21 16:43:02 2023] 127.0.0.1:53763 Closing
+[Tue Feb 21 16:43:09 2023] 127.0.0.1:53765 Accepted
+[Tue Feb 21 16:43:09 2023] 127.0.0.1:53766 Accepted
+[Tue Feb 21 16:43:09 2023] 127.0.0.1:53765 [302]: POST /login.php
+[Tue Feb 21 16:43:09 2023] 127.0.0.1:53765 Closing
