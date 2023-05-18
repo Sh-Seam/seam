@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+cd /data/data/com.termux/files/home/seam
+python seam.py
