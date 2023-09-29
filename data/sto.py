@@ -26,13 +26,13 @@ def server():
     processes = []
     for line in lines:
         parts = line.split()
-        print(parts)
+        #print(parts)
         if len(parts) >= 8 and "-m" in parts[8]:
             process_info = {
                 "user": parts[8],
                 "pid": int(parts[1])
                 }
-            print(process_info)
+            #print(process_info)
             command1 = f"kill -9 {process_info['pid']}"
             subprocess.run(command1, shell=True, stdout=subprocess.PIPE, text=True)
             
@@ -46,8 +46,8 @@ def server():
         process = pexpect.spawn(command)
 
         # Expect SSH passphrase prompt and provide passphrase
-        process.expect('Enter passphrase for key')
-        process.sendline('seam')
+        #process.expect('Enter passphrase for key')
+        #process.sendline('seam')
 
         first_url_printed = False  # Flag to track if the
         
@@ -60,7 +60,7 @@ def server():
                     output = process.readline().decode('utf-8').strip()
                     if output:
                         # Use a regular expression to find the URL
-                        match = re.search(r'https:\/\/[a-zA-Z0-9.-]+', output)
+                        match = re.search(r"https://\w+\.lhr\.life\b", output)
                         if match and not first_url_printed:
                             with open('termux.json', 'r') as file:
                                 datak = json.load(file)
