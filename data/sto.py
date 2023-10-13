@@ -19,7 +19,7 @@ def id():
 def server():
     command0 = "ps -ef | grep python"
     #close exist terminal
-    result = subprocess.run(command0, shell=True,                        stdout=subprocess.PIPE, text=True)
+    result = subprocess.run(command0, shell=True,stdout=subprocess.PIPE, text=True)
 
     # Split the output into lines and process each line
     lines = result.stdout.split('\n')
