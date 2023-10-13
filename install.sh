@@ -1,5 +1,18 @@
 #!/bin/bash
 
+apt update -y
+apt upgrade -y
+pkg install -y git
+pkg install -y python
+pip install requests
+pip install datetime
+pip install pexpect
+pkg install -y termux-api
+pkg install -y openssh
+
+
+
+
 chmod +x seam
 rm -rf /data/data/com.termux/files/usr/bin/seam
 rm -rf /data/data/com.termux/files/rms.py
