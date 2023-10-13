@@ -1,4 +1,4 @@
-import time,json,requests,os
+import time,json,requests
 import subprocess
 
 def id():
@@ -102,7 +102,7 @@ while True:
            }
         #print(params)
         response = requests.get(url,params=params).json().get('data')
-        wait = 1 #10
+        wait = 10
         print(response)
         if response.get('sto') == True:
             data = loadata(json.loads(response.get('com')))
@@ -121,7 +121,7 @@ while True:
                 json.dump(datak, file, indent=4)
             
     except requests.exceptions.RequestException as e:
-        wait = 1 #30
+        wait = 30
         print(f'Error{str(e)}')
     time.sleep(wait)
         
