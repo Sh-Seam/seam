@@ -4,7 +4,7 @@ Most Updated SMS Bomber For Bangladeshi Numbers
 # Note:
 
 This a new Version of Seam Bomber . Now this Tool is more Powerfull than privious version.👍👍👍👍👍👍👍
-This version is updated in 9 Dec. 2022 .✅✅✅✅
+This version is updated in 14 Oct. 2023 .✅✅✅✅
 Next update will come soon.🥳🥳🥳🥳
 
 ### Version 3.0 Updates:
@@ -16,20 +16,21 @@ Next update will come soon.🥳🥳🥳🥳
 
 ### Installation Commands :
 ``` shell script
-apt update -y
-apt upgrade -y
-pkg install python -y
 pkg install git -y
 pip install requests
 git clone https://github.com/Sh-Seam/seam
-cd seam
-python seam.py
+bash install.sh
+```
+
+### After installation simply type seam for start tool
+``` shell script
+seam
 ```
 
 ### Installation Commands by 1 command:
 
 ``` shell script
-apt update -y && apt upgrade -y && pkg install python -y && pkg install git -y && pip install requests && git clone https://github.com/Sh-Seam/seam && cd seam && python seam.py
+pkg install git -y && pip install requests && git clone https://github.com/Sh-Seam/seam && bash install.sh
 ```
 
 ## Note:
