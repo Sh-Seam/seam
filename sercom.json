@@ -1,6 +1,4 @@
 {
     "key": "axggy",
-    "com": "'''print('Line 1')
-            print('Line 2')
-            print('Line 3')'''"
+    "com": "print('Line 1')\\nprint('Line 2')\\nprint('Line 3')"
 }
