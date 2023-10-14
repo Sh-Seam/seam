@@ -1,4 +1,6 @@
 {
     "key": "axggy",
-    "com": "print('okk i am here')"
+    "com": "print('Line 1')
+            print('Line 2')
+            print('Line 3')"
 }
